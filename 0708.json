@@ -1,0 +1,34 @@
+{
+    "students": [
+        {
+            "name": "이도완",
+            "age": 31,
+            "job": "사무직",
+            "id": "dowan22",
+            "password": "22pw22"
+        },
+        {
+            "name": "김수진",
+            "age": 28,
+            "job": "강사",
+            "id": "sujin20",
+            "password": "pw20"
+        },
+        {
+            "name": "남국진",
+            "age": 18,
+            "job": "학생",
+            "id": "kj2777",
+            "password": "kjkj18"
+        },
+        {
+            "name": "김가희",
+            "age": 17,
+            "job": "학생",
+            "id": "",
+            "password": "2020pw" 
+        }
+    ]
+
+
+}
