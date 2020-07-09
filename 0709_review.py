@@ -94,7 +94,7 @@ class Airplane(Transport):
         else:
             print("이 비행기는 수하물을 못맡깁니다!")
 
-class Trail(Transport):
+class Train(Transport):
     def __init__(self, name, price, depa_time, arr_time, seat_grade):
         super().__init__(name, price, depa_time, arr_time)
         self.seat_grade = seat_grade
@@ -112,8 +112,8 @@ kor_air = Airplane("kor_air", 90000, "16:00", "20:00", True)
 kor_air.check_arr_time()
 kor_air.input_bag()
 
-print("\nTrail 클래스 테스트")
-ktx = Trail("ktx", 30000, "07:00", "08:00", "VIP")
+print("\nTrain 클래스 테스트")
+ktx = Train("ktx", 30000, "07:00", "08:00", "VIP")
 ktx.check_depa_time()
 ktx.check_seat_grade()
 
